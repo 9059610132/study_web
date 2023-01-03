@@ -1,0 +1,48 @@
+*{
+   margin: 0;
+   padding: 0;
+   font-family: 'Poppins', sans-serif;
+
+}
+.form{
+   background-image: url(https://cdn.wallpapersafari.com/2/59/0dH3DI.jpg);
+color:black;
+text-align: right;
+position: absolute;
+height: 400px;
+left: 200px;
+bottom: 200px;
+border-radius: 10px;
+
+
+
+}
+.text{
+   font-style: bold;
+   
+
+}
+.h6{
+
+   background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRl6aZxNWxgYfYParsmPpVupdR-bqTd2AlXzg&usqp=CAU);
+   position: absolute;
+   left: 0%;
+   right: 0%;
+   bottom:0%;
+ border-radius: 10px;
+ padding-top: 10px;
+ padding-bottom: 10px;
+ text-align: center;
+}
+.header{
+   background-image: url(https://wallpapercave.com/wp/wp7994949.jpg);
+   position: relative;
+   background-size: cover;
+   background-position: center;
+   min-height: 100vh;
+   width: 100%;
+}
+.mm{
+   background-color: rgb(140, 255, 0);
+   font-size: medium;
+}
