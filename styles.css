@@ -1,19 +1,21 @@
+*{
+   margin: 0;
+   padding: 0;
+   font-family: 'Poppins', sans-serif;
+
+}
 .form{
-   background-image: url(https://media.istockphoto.com/id/1205881259/photo/office-table-top-view.jpg?b=1&s=170667a&w=0&k=20&c=ftWOjSBVYJHNcUDRdEiLE1xKWLcBoAWUQ7LyWJ3zRb0=);
+   background-image: url(https://cdn.wallpapersafari.com/2/59/0dH3DI.jpg);
 color:black;
 text-align: right;
 position: absolute;
-top: 50px;
-left: 1200px;
-bottom: 15%;
-right: 4%;
+height: 400px;
+left: 200px;
+bottom: 200px;
+border-radius: 10px;
 
-padding-right:1%;
-padding-left: 0%;
-margin-right: 5PX;
-cursor: pointer;
-transition-delay: inherit;
-border-radius: 20px;
+
+
 }
 .text{
    font-style: bold;
@@ -33,13 +35,12 @@ border-radius: 20px;
  text-align: center;
 }
 .header{
-   background-image: url(https://wallpaperaccess.com/full/2314950.jpg);
- min-height: 100vh;
- width: 100%;
- background-size: cover;
-background-position: center;
-position: relative;
-transition: 0.5s;
+   background-image: url(https://wallpapercave.com/wp/wp7994949.jpg);
+   position: relative;
+   background-size: cover;
+   background-position: center;
+   min-height: 100vh;
+   width: 100%;
 }
 .mm{
    background-color: rgb(140, 255, 0);
