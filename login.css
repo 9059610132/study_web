@@ -1,0 +1,116 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+
+}
+.h1{
+    
+    background-image: url("https://cdn.wallpapersafari.com/2/59/0dH3DI.jpg");
+    text-align:right;
+    position: absolute;
+    width: 200px;
+    height: 380px;
+    top: 100px;
+    left: 100;
+    bottom: 50px;
+    border-radius: 10px;
+    padding: 25px;
+    padding-left: 1%;
+    right: 2%;
+    padding-right: 40px;
+    margin-right: 5px;
+    
+
+
+
+    
+
+
+}
+.HEAD{
+    text-align: center;
+    font-style: bold;
+    text-decoration: underline;
+
+}
+.rgt{
+   background-color: rgb(247, 251, 248);
+   position: absolute;
+   border-radius: 5px;
+
+   
+   
+
+}
+.h3{
+    color: rgb(24, 24, 23);
+    font-family: bold;
+    cursor: pointer;
+    font: 100;
+}
+.header{
+    background-image: url(https://wallpapercave.com/wp/wp7994949.jpg);
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    width: 100%;
+    
+}
+.icons{
+    text-decoration: none;
+    color: black;
+
+}
+.icons ion-icon{
+    color: black;
+    font-size: 25px;
+    padding-left: 10px;
+    padding-right: 0px;
+    padding-bottom: 20px;
+}
+.h{
+    text-align: center;
+    color: black;
+    font-style: bold;
+}
+.h4{
+    text-align: center;
+    background-color: rgb(242, 245, 243);
+   
+    border-radius: 5px;
+ position: relative;
+
+ 
+    }
+
+.img{
+text-align: end;
+cursor: pointer;
+transition: 0.5s;
+}
+.inner-text{
+
+text-align:left;
+font-style:bold;
+color: rgb(255, 187, 0);
+text-decoration: aqua;
+text-transform: capitalize;
+
+
+}
+.boom{
+    color: rgb(244, 245, 244);
+    
+    text-emphasis-style: bold;
+    font-style: bold;
+    text-align:left;
+}
+.mm{
+    direction: left;
+    color: aliceblue;
+    background-color: black;
+    font-size: medium;
+}
