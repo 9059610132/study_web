@@ -1,0 +1,61 @@
+{
+  "ruleChain": {
+    "additionalInfo": {
+      "description": ""
+    },
+    "name": "warehouse",
+    "type": "CORE",
+    "firstRuleNodeId": null,
+    "root": false,
+    "debugMode": false,
+    "configuration": null,
+    "externalId": null
+  },
+  "metadata": {
+    "firstNodeIndex": 0,
+    "nodes": [
+      {
+        "additionalInfo": {
+          "description": "",
+          "layoutX": 271,
+          "layoutY": 150
+        },
+        "type": "org.thingsboard.rule.engine.transform.TbTransformMsgNode",
+        "name": "avg",
+        "debugMode": false,
+        "singletonMode": false,
+        "configuration": {
+          "scriptLang": "JS",
+          "jsScript": "var avg = {}\navg.average_voltage = (msg.BR_Voltage + msg.RY_Voltage + msg.YB_Voltage)/3 \navg.average_current = (msg.Y_Phase_line_Current + msg.R_Phase_line_Current + msg.B_Phase_line_Current)/3 \navg.average_pf = (msg.Bph_power_Factor + msg.Rph_power_Factor + msg.Yph_power_Factor)/3; \n\n\nreturn {msg: avg, metadata: metadata, msgType: msgType};",
+          "tbelScript": "return {msg: msg, metadata: metadata, msgType: msgType};"
+        },
+        "externalId": null
+      },
+      {
+        "additionalInfo": {
+          "description": "",
+          "layoutX": 534,
+          "layoutY": 152
+        },
+        "type": "org.thingsboard.rule.engine.telemetry.TbMsgTimeseriesNode",
+        "name": "time",
+        "debugMode": false,
+        "singletonMode": false,
+        "configuration": {
+          "defaultTTL": 0,
+          "skipLatestPersistence": false,
+          "useServerTs": false
+        },
+        "externalId": null
+      }
+    ],
+    "connections": [
+      {
+        "fromIndex": 0,
+        "toIndex": 1,
+        "type": "Success"
+      }
+    ],
+    "ruleChainConnections": null
+  }
+}
